@@ -2,7 +2,9 @@
 
 ## 概要
 クリップボードを読み取って改行コードを消したうえでクリップボードに戻すアプリ
+改行コードを削除するだけなら[clipGui.py](https://github.com/Gild-shogi/Clip-rn/blob/main/clipGui.py), DeepLを使用した翻訳Verは[clipGui2.py](https://github.com/Gild-shogi/Clip-rn/blob/main/clipGui2.py)へ。
 
+mainブランチは英⇒日の翻訳のみ、中国語等や、日⇒英への対応プログラムはchoiseブランチ以下の`clipGui2.py`のプログラムで対応している(動作が重すぎるのでマージしてない)
 ## 注意
 `datetime`, `pyperclip`, `selenium`とChromeWebDriverのインストールが必要です。
 
