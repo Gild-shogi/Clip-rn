@@ -1,7 +1,9 @@
 import translatemodule
 import pyperclip
-def shapeText():
-    mes = pyperclip.paste()
+
+def shapeText(reText = "", mes = ""):
+    if reText != mes:
+        mes = pyperclip.paste()
     print(mes)
     mes = mes.split('\r\n')
     reText = ""
